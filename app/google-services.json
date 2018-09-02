@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "91520134057",
+    "firebase_url": "https://just-30b06.firebaseio.com",
+    "project_id": "just-30b06",
+    "storage_bucket": "just-30b06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91520134057:android:e89645a45c1225bf",
+        "android_client_info": {
+          "package_name": "justparking.justparking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91520134057-vsnfcgb31ditivfd468sp7p92lcpn53i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "justparking.justparking",
+            "certificate_hash": "b253fe960d56359ceae02a9d87e4778195dec9bd"
+          }
+        },
+        {
+          "client_id": "91520134057-5t4sf8e5jddd4bfri53mqt1i9fsfdj0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx1CGa5DVQjnP6ElkmdYQN37yYE5pW7Dc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91520134057-5t4sf8e5jddd4bfri53mqt1i9fsfdj0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

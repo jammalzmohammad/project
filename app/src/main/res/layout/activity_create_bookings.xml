@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateBookings"
+    android:orientation="vertical"
+    android:background="@drawable/wallpapers"
+
+    >
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Create Booking"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Amount of Duration Time"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/DurationTime"
+            android:textColor="#fff"
+            android:hint="Enter Duration Time "
+            android:textColorHint="#fff"
+            android:inputType="number"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancel"
+            android:text="cancel"
+            android:background="@drawable/button_shape"
+            android:textAllCaps="false"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:typeface="monospace"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gotomap"
+            android:text="Create Booking"
+            android:textAllCaps="false"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:typeface="monospace"
+            android:padding="10dp"
+            />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:text="Just e-Parking"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:typeface="monospace"
+        android:layout_height="wrap_content" />
+</LinearLayout>

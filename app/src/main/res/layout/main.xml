@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/justbak"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/mainToolbar"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_button"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <Button
+        android:id="@+id/engineering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mainToolbar"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="الهندسية" />
+
+    <Button
+        android:id="@+id/medical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/shape"
+        android:layout_below="@+id/mainToolbar"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="الطبية" />
+
+    <Button
+        android:id="@+id/buildings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mainToolbar"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shape"
+        android:text="المباني" />
+
+
+
+
+</LinearLayout>
+
+</LinearLayout>
+

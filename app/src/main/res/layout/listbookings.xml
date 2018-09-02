@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        app:cardCornerRadius="@dimen/cardview_compat_inset_shadow"
+        app:cardBackgroundColor="#FFFFF0"
+        android:layout_margin="5dp">
+
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <ImageView
+                android:layout_height="100dp"
+                android:layout_width="100dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/smartparking"
+                android:id="@+id/imageView_list_item"/>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="20dp"
+                    android:id="@+id/bookingsName_list_item"
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:text="Bookings Name"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/time_Bookings_list_item"
+                    android:textSize="20sp"
+                    android:padding="5dp"
+                    android:text="Time of Bookings "
+                    android:layout_marginLeft="20dp"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

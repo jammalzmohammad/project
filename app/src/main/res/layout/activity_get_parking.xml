@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="55dp">
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/GetGps"
+        android:background="@color/colorPrimary"
+        android:text="Get gps"
+        />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="langtoude"
+        android:id="@+id/TextLang_id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#A5D6A7"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Lat"
+        android:id="@+id/TextLat_id2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#A5D6A7"/>
+
+</LinearLayout>
+
+<TextView
+    android:layout_marginTop="10dp"
+    android:id="@+id/NumberOFParking_id"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#2E7D32"
+    android:inputType="number"
+    />
+<Button
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/colorPrimary"
+    android:text="Save in List"
+    android:id="@+id/SaveInList"
+    />
+
+<Button
+    android:layout_marginTop="160dp"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/colorPrimary"
+    android:text="Save in Data base "
+    android:id="@+id/SaveInDataBase"
+    />
+
+
+</LinearLayout>
